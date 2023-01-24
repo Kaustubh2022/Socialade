@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            <%=title%>
+        </title>
+        <link rel="stylesheet" type="text/css" href="/css/layout.css">
+
+        <%-style%>
+       
+
+    </head>
+    <body class="body">
+
+        <%- include('_header'); %>
+        
+        <!-- to show variable part -->
+
+        <%- body %>
+
+        <%- include('_header'); %>
+
+        <%- script %>
+    </body>
+</html>
